@@ -15,15 +15,12 @@ namespace OOPCA1
         {
             InitializeComponent();
 
-            // Create an instance of the DAO class
             var dao = new DAO();
 
-            // Get the connection string from the DAO's OpenCon() method
             string connectionString = dao.GetConnectionString();
 
             var db = new Database(connectionString);
 
-            // Rest of the code remains the same
             datagrid = new Datagrid(db);
         }
         private void Form1_Load(object sender, EventArgs e)
