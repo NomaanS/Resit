@@ -37,6 +37,11 @@ namespace DAL
                 }
             }
         }
+
+        public string GetConnectionString()
+        {
+            return ConfigurationManager.ConnectionStrings["DBCon"].ConnectionString;
+        }
     }
 }
 
