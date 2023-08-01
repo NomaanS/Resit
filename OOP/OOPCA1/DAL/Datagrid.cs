@@ -40,6 +40,18 @@ namespace DAL
             string queryStudentsAboveAge = "SELECT * FROM Students WHERE Age > 25";
             return database.ExecuteQuery(queryStudentsAboveAge);
         }
+
+        public DataTable GetStudentsfromCork()
+        {
+            string queryMaleLecturers = "SELECT * FROM Students WHERE County = 'Cork'";
+            return database.ExecuteQuery(queryMaleLecturers);
+        }
+
+        public DataTable GetLecturersMorethan6k()
+        {
+            string queryStudentsAboveAge = "SELECT * FROM Lecturers WHERE Pay > 6000";
+            return database.ExecuteQuery(queryStudentsAboveAge);
+        }
     }
 }
 
