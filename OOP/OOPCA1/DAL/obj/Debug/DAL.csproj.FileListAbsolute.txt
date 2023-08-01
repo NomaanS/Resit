@@ -73,8 +73,12 @@ D:\Resit\OOP\OOPCA1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Resit\OOP\OOPCA1\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Resit\OOP\OOPCA1\DAL\obj\Debug\DAL.dll
 D:\Resit\OOP\OOPCA1\DAL\obj\Debug\DAL.pdb
+D:\Resit\OOP\OOPCA1\DAL\bin\Debug\oop1.mdf
+D:\Resit\OOP\OOPCA1\DAL\bin\Debug\oop1_log.ldf
 D:\Resit\OOP\OOPCA1\DAL\bin\Debug\BIZ.dll
 D:\Resit\OOP\OOPCA1\DAL\bin\Debug\BIZ.pdb
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\DAL\bin\Debug\oop1.mdf
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\DAL\bin\Debug\oop1_log.ldf
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\DAL\bin\Debug\DAL.dll.config
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\DAL\bin\Debug\DAL.dll
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\DAL\bin\Debug\DAL.pdb

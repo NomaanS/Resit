@@ -83,6 +83,8 @@ D:\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.csproj.CoreCompileInputs.cache
 D:\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.csproj.CopyComplete
 D:\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.exe
 D:\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.pdb
+D:\Resit\OOP\OOPCA1\OOPCA1\bin\Debug\oop1.mdf
+D:\Resit\OOP\OOPCA1\OOPCA1\bin\Debug\oop1_log.ldf
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.csproj.AssemblyReference.cache
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.csproj.SuggestedBindingRedirects.cache
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.Form1.resources
@@ -91,6 +93,8 @@ D:\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.pdb
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.csproj.CoreCompileInputs.cache
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.exe
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\obj\Debug\OOPCA1.pdb
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\bin\Debug\oop1.mdf
+\\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\bin\Debug\oop1_log.ldf
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\bin\Debug\OOPCA1.exe.config
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\bin\Debug\OOPCA1.exe
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\OOPCA1\bin\Debug\OOPCA1.pdb
