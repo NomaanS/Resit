@@ -10,3 +10,9 @@ D:\Resit\OOP\OOPCA1\BIZ\obj\Debug\BIZ.pdb
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\BIZ\obj\Debug\BIZ.dll
 \\DBS-FS.student.dbs.ie\CTX.XA.Profiles.Data.New\10605790\Desktop\Resit\OOP\OOPCA1\BIZ\obj\Debug\BIZ.pdb
+D:\Resit-raunaqbranch\OOP\OOPCA1\BIZ\bin\Debug\BIZ.dll
+D:\Resit-raunaqbranch\OOP\OOPCA1\BIZ\bin\Debug\BIZ.pdb
+D:\Resit-raunaqbranch\OOP\OOPCA1\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+D:\Resit-raunaqbranch\OOP\OOPCA1\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+D:\Resit-raunaqbranch\OOP\OOPCA1\BIZ\obj\Debug\BIZ.dll
+D:\Resit-raunaqbranch\OOP\OOPCA1\BIZ\obj\Debug\BIZ.pdb
