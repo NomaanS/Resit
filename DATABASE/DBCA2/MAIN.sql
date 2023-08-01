@@ -61,7 +61,7 @@ CREATE TABLE [Program] (
       REFERENCES [Member]([MemberID])
 );
 
-CREATE TABLE [ProgrameDetails] (
+CREATE TABLE [ProgramDetails] (
   [ProgrameDetailID] int IDENTITY(100,1),
   [ProgramID] int,
   [MachineID] int,
