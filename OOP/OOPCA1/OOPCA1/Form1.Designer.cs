@@ -32,11 +32,6 @@ namespace OOPCA1
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.sqlDataAdapter1 = new Microsoft.Data.SqlClient.SqlDataAdapter();
             this.showstudenttbtn = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
-=======
             this.showlecturebtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.maleLecturers = new System.Windows.Forms.Button();
@@ -49,7 +44,6 @@ namespace OOPCA1
             this.studfromcork = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.panel1.SuspendLayout();
->>>>>>> raunaqbranch
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,39 +52,18 @@ namespace OOPCA1
             this.dataGridView.AllowUserToOrderColumns = true;
             this.dataGridView.BackgroundColor = System.Drawing.Color.LightCyan;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-<<<<<<< HEAD
-            this.dataGridView.GridColor = System.Drawing.Color.Black;
-            this.dataGridView.Location = new System.Drawing.Point(1, 3);
-=======
             this.dataGridView.Dock = System.Windows.Forms.DockStyle.Right;
             this.dataGridView.GridColor = System.Drawing.Color.Black;
             this.dataGridView.Location = new System.Drawing.Point(174, 0);
->>>>>>> raunaqbranch
             this.dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
             this.dataGridView.RowTemplate.Height = 24;
-<<<<<<< HEAD
-            this.dataGridView.Size = new System.Drawing.Size(597, 362);
-=======
             this.dataGridView.Size = new System.Drawing.Size(886, 567);
->>>>>>> raunaqbranch
             this.dataGridView.TabIndex = 0;
-            this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
             // 
             // showstudenttbtn
             // 
-<<<<<<< HEAD
-            this.showstudenttbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.showstudenttbtn.Location = new System.Drawing.Point(52, 252);
-            this.showstudenttbtn.Margin = new System.Windows.Forms.Padding(2);
-            this.showstudenttbtn.Name = "showstudenttbtn";
-            this.showstudenttbtn.Size = new System.Drawing.Size(234, 58);
-            this.showstudenttbtn.TabIndex = 1;
-            this.showstudenttbtn.Text = "Show Students";
-            this.showstudenttbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.showstudenttbtn.UseVisualStyleBackColor = true;
-=======
             this.showstudenttbtn.BackColor = System.Drawing.Color.LightSlateGray;
             this.showstudenttbtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.showstudenttbtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -103,24 +76,10 @@ namespace OOPCA1
             this.showstudenttbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.showstudenttbtn.UseVisualStyleBackColor = false;
             this.showstudenttbtn.Visible = false;
->>>>>>> raunaqbranch
             this.showstudenttbtn.Click += new System.EventHandler(this.showstudenttbtn_Click);
             // 
             // showlecturebtn
             // 
-<<<<<<< HEAD
-            this.button1.AllowDrop = true;
-            this.button1.AutoEllipsis = true;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(370, 252);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(176, 59);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Show Lecturers";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.showlecturertbtn_Click);
-=======
             this.showlecturebtn.AllowDrop = true;
             this.showlecturebtn.AutoEllipsis = true;
             this.showlecturebtn.BackColor = System.Drawing.Color.LightSlateGray;
@@ -269,49 +228,25 @@ namespace OOPCA1
             this.studfromcork.UseVisualStyleBackColor = false;
             this.studfromcork.Visible = false;
             this.studfromcork.Click += new System.EventHandler(this.Studfromcork_Click);
->>>>>>> raunaqbranch
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::OOPCA1.Properties.Resources.download;
-            this.pictureBox1.Location = new System.Drawing.Point(169, 36);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(279, 171);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.showstudenttbtn);
-            this.Controls.Add(this.dataGridView);
-=======
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(1060, 567);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
->>>>>>> raunaqbranch
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
-<<<<<<< HEAD
-=======
             this.panel1.ResumeLayout(false);
->>>>>>> raunaqbranch
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -320,10 +255,6 @@ namespace OOPCA1
         private System.Windows.Forms.DataGridView dataGridView;
         private Microsoft.Data.SqlClient.SqlDataAdapter sqlDataAdapter1;
         private System.Windows.Forms.Button showstudenttbtn;
-<<<<<<< HEAD
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-=======
         private System.Windows.Forms.Button showlecturebtn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
@@ -334,7 +265,6 @@ namespace OOPCA1
         private System.Windows.Forms.Button students25age;
         private System.Windows.Forms.Button studfromcork;
         private System.Windows.Forms.Button lectur6kbtn;
->>>>>>> raunaqbranch
     }
 }
 

@@ -88,17 +88,6 @@ namespace OOPCA1
             HomeButtonVisibilty();
         }
 
-<<<<<<< HEAD
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-=======
         private void MaleLecturers_Click(object sender, EventArgs e)
         {
             ShowLecturersMale();
@@ -213,6 +202,5 @@ namespace OOPCA1
         }
 
        
->>>>>>> raunaqbranch
     }
 }
