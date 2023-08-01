@@ -60,19 +60,9 @@ namespace OOPCA1
             dataGridView.DataSource = dataTable;
         }
 
-        private void ShowStudentCorkCounty() 
-        {
-            dataTable = datagrid.GetStudentsfromCork();
+        private void ShowStudentCorkCounty() { }
 
-            dataGridView.DataSource = dataTable;
-        }
-
-        private void ShowLecturersPayMore6K() 
-        {
-            dataTable = datagrid.GetLecturersMorethan6k();
-
-            dataGridView.DataSource = dataTable;
-        }
+        private void ShowLecturersPayMore6K() { }
 
         private void showstudenttbtn_Click(object sender, EventArgs e)
         {
@@ -101,21 +91,6 @@ namespace OOPCA1
             ShowStudentsAbove25();
             HidePicture(false);
             HomeButtonVisibilty();
-        }
-
-        private void Studfromcork_Click(object sender, EventArgs e)
-        {
-            ShowStudentCorkCounty();
-            HidePicture(false);
-            HomeButtonVisibilty();
-        }
-
-        private void Lectur6kbtn_Click(object sender, EventArgs e)
-        {
-            ShowLecturersPayMore6K();
-            HidePicture(false);
-            HomeButtonVisibilty();
-
         }
 
         private void StudentInfobtn_Click(object sender, EventArgs e)
@@ -152,8 +127,7 @@ namespace OOPCA1
                 students25age.Visible = true;
                 students25age.Location= new Point(0, 60);
 
-                studfromcork.Visible = true;
-                studfromcork.Location= new Point(0,110);
+
 
                 studentinf.Visible = false;
                 lectureinf.Visible = false;
@@ -170,9 +144,6 @@ namespace OOPCA1
                 maleLecturers.Visible = true;
                 maleLecturers.Location = new Point(0, 60);
 
-                lectur6kbtn.Visible = true;
-                lectur6kbtn.Location = new Point(0, 110);
-
 
                 studentinf.Visible = false;
                 lectureinf.Visible = false;
@@ -186,9 +157,6 @@ namespace OOPCA1
 
                 students25age.Visible = false;
                 maleLecturers.Visible = false;
-
-                studfromcork.Visible= false;
-                lectur6kbtn.Visible= false;
 
                 studentinf.Visible = true;
                 lectureinf.Visible = true;

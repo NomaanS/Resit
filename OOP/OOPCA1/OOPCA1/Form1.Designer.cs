@@ -34,14 +34,12 @@ namespace OOPCA1
             this.showstudenttbtn = new System.Windows.Forms.Button();
             this.showlecturebtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.maleLecturers = new System.Windows.Forms.Button();
-            this.students25age = new System.Windows.Forms.Button();
             this.lectureinf = new System.Windows.Forms.Button();
             this.studentinf = new System.Windows.Forms.Button();
             this.backbtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lectur6kbtn = new System.Windows.Forms.Button();
-            this.studfromcork = new System.Windows.Forms.Button();
+            this.students25age = new System.Windows.Forms.Button();
+            this.maleLecturers = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -99,8 +97,6 @@ namespace OOPCA1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.studfromcork);
-            this.panel1.Controls.Add(this.lectur6kbtn);
             this.panel1.Controls.Add(this.maleLecturers);
             this.panel1.Controls.Add(this.students25age);
             this.panel1.Controls.Add(this.lectureinf);
@@ -113,38 +109,6 @@ namespace OOPCA1
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(174, 567);
             this.panel1.TabIndex = 4;
-            // 
-            // maleLecturers
-            // 
-            this.maleLecturers.BackColor = System.Drawing.Color.LightSlateGray;
-            this.maleLecturers.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.maleLecturers.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maleLecturers.Location = new System.Drawing.Point(0, 306);
-            this.maleLecturers.Margin = new System.Windows.Forms.Padding(2);
-            this.maleLecturers.Name = "maleLecturers";
-            this.maleLecturers.Size = new System.Drawing.Size(173, 40);
-            this.maleLecturers.TabIndex = 7;
-            this.maleLecturers.Text = "Male Lecturers ";
-            this.maleLecturers.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.maleLecturers.UseVisualStyleBackColor = false;
-            this.maleLecturers.Visible = false;
-            this.maleLecturers.Click += new System.EventHandler(this.MaleLecturers_Click);
-            // 
-            // students25age
-            // 
-            this.students25age.BackColor = System.Drawing.Color.LightSlateGray;
-            this.students25age.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.students25age.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.students25age.Location = new System.Drawing.Point(0, 257);
-            this.students25age.Margin = new System.Windows.Forms.Padding(2);
-            this.students25age.Name = "students25age";
-            this.students25age.Size = new System.Drawing.Size(173, 45);
-            this.students25age.TabIndex = 6;
-            this.students25age.Text = "Students Above the age 25";
-            this.students25age.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.students25age.UseVisualStyleBackColor = false;
-            this.students25age.Visible = false;
-            this.students25age.Click += new System.EventHandler(this.Students25age_Click);
             // 
             // lectureinf
             // 
@@ -197,37 +161,37 @@ namespace OOPCA1
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // lectur6kbtn
+            // students25age
             // 
-            this.lectur6kbtn.BackColor = System.Drawing.Color.LightSlateGray;
-            this.lectur6kbtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.lectur6kbtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lectur6kbtn.Location = new System.Drawing.Point(0, 410);
-            this.lectur6kbtn.Margin = new System.Windows.Forms.Padding(2);
-            this.lectur6kbtn.Name = "lectur6kbtn";
-            this.lectur6kbtn.Size = new System.Drawing.Size(173, 45);
-            this.lectur6kbtn.TabIndex = 8;
-            this.lectur6kbtn.Text = "Lecturers with Pay more than 6K";
-            this.lectur6kbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.lectur6kbtn.UseVisualStyleBackColor = false;
-            this.lectur6kbtn.Visible = false;
-            this.lectur6kbtn.Click += new System.EventHandler(this.Lectur6kbtn_Click);
+            this.students25age.BackColor = System.Drawing.Color.LightSlateGray;
+            this.students25age.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.students25age.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.students25age.Location = new System.Drawing.Point(0, 262);
+            this.students25age.Margin = new System.Windows.Forms.Padding(2);
+            this.students25age.Name = "students25age";
+            this.students25age.Size = new System.Drawing.Size(173, 40);
+            this.students25age.TabIndex = 6;
+            this.students25age.Text = "Students Above the age 25";
+            this.students25age.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.students25age.UseVisualStyleBackColor = false;
+            this.students25age.Visible = false;
+            this.students25age.Click += new System.EventHandler(this.Students25age_Click);
             // 
-            // studfromcork
+            // maleLecturers
             // 
-            this.studfromcork.BackColor = System.Drawing.Color.LightSlateGray;
-            this.studfromcork.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.studfromcork.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studfromcork.Location = new System.Drawing.Point(-1, 366);
-            this.studfromcork.Margin = new System.Windows.Forms.Padding(2);
-            this.studfromcork.Name = "studfromcork";
-            this.studfromcork.Size = new System.Drawing.Size(173, 40);
-            this.studfromcork.TabIndex = 9;
-            this.studfromcork.Text = "Students from Cork";
-            this.studfromcork.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.studfromcork.UseVisualStyleBackColor = false;
-            this.studfromcork.Visible = false;
-            this.studfromcork.Click += new System.EventHandler(this.Studfromcork_Click);
+            this.maleLecturers.BackColor = System.Drawing.Color.LightSlateGray;
+            this.maleLecturers.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.maleLecturers.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maleLecturers.Location = new System.Drawing.Point(0, 306);
+            this.maleLecturers.Margin = new System.Windows.Forms.Padding(2);
+            this.maleLecturers.Name = "maleLecturers";
+            this.maleLecturers.Size = new System.Drawing.Size(173, 40);
+            this.maleLecturers.TabIndex = 7;
+            this.maleLecturers.Text = "Male Lecturers ";
+            this.maleLecturers.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.maleLecturers.UseVisualStyleBackColor = false;
+            this.maleLecturers.Visible = false;
+            this.maleLecturers.Click += new System.EventHandler(this.MaleLecturers_Click);
             // 
             // Form1
             // 
@@ -263,8 +227,6 @@ namespace OOPCA1
         private System.Windows.Forms.Button studentinf;
         private System.Windows.Forms.Button maleLecturers;
         private System.Windows.Forms.Button students25age;
-        private System.Windows.Forms.Button studfromcork;
-        private System.Windows.Forms.Button lectur6kbtn;
     }
 }
 
