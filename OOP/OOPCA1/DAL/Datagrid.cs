@@ -35,10 +35,10 @@ namespace DAL
             return database.ExecuteQuery(queryMaleLecturers);
         }
 
-        public DataTable GetStudentsAboveAge(int age)
+        public DataTable GetStudentsAboveAge25()
         {
-            string queryStudentsAboveAge = "SELECT * FROM Students WHERE Age > @Age";
-            return database.ExecuteQuery(queryStudentsAboveAge, new SqlParameter("@Age", age));
+            string queryStudentsAboveAge = "SELECT * FROM Students WHERE Age > 25";
+            return database.ExecuteQuery(queryStudentsAboveAge);
         }
     }
 }

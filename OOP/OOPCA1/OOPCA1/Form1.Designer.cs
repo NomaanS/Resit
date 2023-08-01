@@ -32,55 +32,184 @@ namespace OOPCA1
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.sqlDataAdapter1 = new Microsoft.Data.SqlClient.SqlDataAdapter();
             this.showstudenttbtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.showlecturebtn = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lectureinf = new System.Windows.Forms.Button();
+            this.studentinf = new System.Windows.Forms.Button();
+            this.backbtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.students25age = new System.Windows.Forms.Button();
+            this.maleLecturers = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView
             // 
+            this.dataGridView.AllowUserToOrderColumns = true;
+            this.dataGridView.BackgroundColor = System.Drawing.Color.LightCyan;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(35, 32);
-            this.dataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView.Dock = System.Windows.Forms.DockStyle.Right;
+            this.dataGridView.GridColor = System.Drawing.Color.Black;
+            this.dataGridView.Location = new System.Drawing.Point(174, 0);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
             this.dataGridView.RowTemplate.Height = 24;
-            this.dataGridView.Size = new System.Drawing.Size(515, 294);
+            this.dataGridView.Size = new System.Drawing.Size(886, 567);
             this.dataGridView.TabIndex = 0;
             // 
             // showstudenttbtn
             // 
-            this.showstudenttbtn.Location = new System.Drawing.Point(94, 336);
-            this.showstudenttbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.showstudenttbtn.BackColor = System.Drawing.Color.LightSlateGray;
+            this.showstudenttbtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.showstudenttbtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showstudenttbtn.Location = new System.Drawing.Point(0, 165);
+            this.showstudenttbtn.Margin = new System.Windows.Forms.Padding(2);
             this.showstudenttbtn.Name = "showstudenttbtn";
-            this.showstudenttbtn.Size = new System.Drawing.Size(103, 19);
+            this.showstudenttbtn.Size = new System.Drawing.Size(173, 40);
             this.showstudenttbtn.TabIndex = 1;
-            this.showstudenttbtn.Text = "Show Students";
-            this.showstudenttbtn.UseVisualStyleBackColor = true;
+            this.showstudenttbtn.Text = "Students Directory";
+            this.showstudenttbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.showstudenttbtn.UseVisualStyleBackColor = false;
+            this.showstudenttbtn.Visible = false;
             this.showstudenttbtn.Click += new System.EventHandler(this.showstudenttbtn_Click);
             // 
-            // button1
+            // showlecturebtn
             // 
-            this.button1.Location = new System.Drawing.Point(216, 336);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 19);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Show Lecturers";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.showlecturertbtn_Click);
+            this.showlecturebtn.AllowDrop = true;
+            this.showlecturebtn.AutoEllipsis = true;
+            this.showlecturebtn.BackColor = System.Drawing.Color.LightSlateGray;
+            this.showlecturebtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.showlecturebtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showlecturebtn.Location = new System.Drawing.Point(-1, 121);
+            this.showlecturebtn.Margin = new System.Windows.Forms.Padding(2);
+            this.showlecturebtn.Name = "showlecturebtn";
+            this.showlecturebtn.Size = new System.Drawing.Size(175, 40);
+            this.showlecturebtn.TabIndex = 2;
+            this.showlecturebtn.Text = "Lecturers Directory";
+            this.showlecturebtn.UseVisualStyleBackColor = false;
+            this.showlecturebtn.Visible = false;
+            this.showlecturebtn.Click += new System.EventHandler(this.showlecturertbtn_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.maleLecturers);
+            this.panel1.Controls.Add(this.students25age);
+            this.panel1.Controls.Add(this.lectureinf);
+            this.panel1.Controls.Add(this.studentinf);
+            this.panel1.Controls.Add(this.backbtn);
+            this.panel1.Controls.Add(this.showlecturebtn);
+            this.panel1.Controls.Add(this.showstudenttbtn);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(174, 567);
+            this.panel1.TabIndex = 4;
+            // 
+            // lectureinf
+            // 
+            this.lectureinf.BackColor = System.Drawing.Color.LightSlateGray;
+            this.lectureinf.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.lectureinf.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lectureinf.Location = new System.Drawing.Point(0, 60);
+            this.lectureinf.Margin = new System.Windows.Forms.Padding(2);
+            this.lectureinf.Name = "lectureinf";
+            this.lectureinf.Size = new System.Drawing.Size(174, 40);
+            this.lectureinf.TabIndex = 5;
+            this.lectureinf.Text = "Lecturer Information";
+            this.lectureinf.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.lectureinf.UseVisualStyleBackColor = false;
+            this.lectureinf.Click += new System.EventHandler(this.LectureInfobtn_Click);
+            // 
+            // studentinf
+            // 
+            this.studentinf.BackColor = System.Drawing.Color.LightSlateGray;
+            this.studentinf.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.studentinf.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentinf.Location = new System.Drawing.Point(0, 10);
+            this.studentinf.Margin = new System.Windows.Forms.Padding(2);
+            this.studentinf.Name = "studentinf";
+            this.studentinf.Size = new System.Drawing.Size(173, 40);
+            this.studentinf.TabIndex = 4;
+            this.studentinf.Text = "Student Information";
+            this.studentinf.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.studentinf.UseVisualStyleBackColor = false;
+            this.studentinf.Click += new System.EventHandler(this.StudentInfobtn_Click);
+            // 
+            // backbtn
+            // 
+            this.backbtn.Location = new System.Drawing.Point(34, 525);
+            this.backbtn.Name = "backbtn";
+            this.backbtn.Size = new System.Drawing.Size(98, 29);
+            this.backbtn.TabIndex = 3;
+            this.backbtn.Text = "Back";
+            this.backbtn.UseVisualStyleBackColor = true;
+            this.backbtn.Visible = false;
+            this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::OOPCA1.Properties.Resources.download;
+            this.pictureBox1.Location = new System.Drawing.Point(500, 201);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(277, 176);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // students25age
+            // 
+            this.students25age.BackColor = System.Drawing.Color.LightSlateGray;
+            this.students25age.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.students25age.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.students25age.Location = new System.Drawing.Point(0, 262);
+            this.students25age.Margin = new System.Windows.Forms.Padding(2);
+            this.students25age.Name = "students25age";
+            this.students25age.Size = new System.Drawing.Size(173, 40);
+            this.students25age.TabIndex = 6;
+            this.students25age.Text = "Students Above the age 25";
+            this.students25age.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.students25age.UseVisualStyleBackColor = false;
+            this.students25age.Visible = false;
+            this.students25age.Click += new System.EventHandler(this.Students25age_Click);
+            // 
+            // maleLecturers
+            // 
+            this.maleLecturers.BackColor = System.Drawing.Color.LightSlateGray;
+            this.maleLecturers.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.maleLecturers.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maleLecturers.Location = new System.Drawing.Point(0, 306);
+            this.maleLecturers.Margin = new System.Windows.Forms.Padding(2);
+            this.maleLecturers.Name = "maleLecturers";
+            this.maleLecturers.Size = new System.Drawing.Size(173, 40);
+            this.maleLecturers.TabIndex = 7;
+            this.maleLecturers.Text = "Male Lecturers ";
+            this.maleLecturers.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.maleLecturers.UseVisualStyleBackColor = false;
+            this.maleLecturers.Visible = false;
+            this.maleLecturers.Click += new System.EventHandler(this.MaleLecturers_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.showstudenttbtn);
+            this.BackColor = System.Drawing.Color.LightCyan;
+            this.ClientSize = new System.Drawing.Size(1060, 567);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -90,7 +219,14 @@ namespace OOPCA1
         private System.Windows.Forms.DataGridView dataGridView;
         private Microsoft.Data.SqlClient.SqlDataAdapter sqlDataAdapter1;
         private System.Windows.Forms.Button showstudenttbtn;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button showlecturebtn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button backbtn;
+        private System.Windows.Forms.Button lectureinf;
+        private System.Windows.Forms.Button studentinf;
+        private System.Windows.Forms.Button maleLecturers;
+        private System.Windows.Forms.Button students25age;
     }
 }
 
