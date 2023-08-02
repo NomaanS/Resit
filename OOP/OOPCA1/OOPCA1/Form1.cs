@@ -201,6 +201,9 @@ namespace OOPCA1
             else { pictureBox1.Visible = true; ; dataGridView.Visible = false; }
         }
 
-       
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

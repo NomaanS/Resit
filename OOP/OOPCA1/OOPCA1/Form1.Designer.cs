@@ -34,14 +34,14 @@ namespace OOPCA1
             this.showstudenttbtn = new System.Windows.Forms.Button();
             this.showlecturebtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.studfromcork = new System.Windows.Forms.Button();
+            this.lectur6kbtn = new System.Windows.Forms.Button();
             this.maleLecturers = new System.Windows.Forms.Button();
             this.students25age = new System.Windows.Forms.Button();
             this.lectureinf = new System.Windows.Forms.Button();
             this.studentinf = new System.Windows.Forms.Button();
             this.backbtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lectur6kbtn = new System.Windows.Forms.Button();
-            this.studfromcork = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -54,19 +54,19 @@ namespace OOPCA1
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Dock = System.Windows.Forms.DockStyle.Right;
             this.dataGridView.GridColor = System.Drawing.Color.Black;
-            this.dataGridView.Location = new System.Drawing.Point(174, 0);
+            this.dataGridView.Location = new System.Drawing.Point(177, 0);
             this.dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
             this.dataGridView.RowTemplate.Height = 24;
-            this.dataGridView.Size = new System.Drawing.Size(886, 567);
+            this.dataGridView.Size = new System.Drawing.Size(883, 567);
             this.dataGridView.TabIndex = 0;
             // 
             // showstudenttbtn
             // 
             this.showstudenttbtn.BackColor = System.Drawing.Color.LightSlateGray;
             this.showstudenttbtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.showstudenttbtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showstudenttbtn.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showstudenttbtn.Location = new System.Drawing.Point(0, 165);
             this.showstudenttbtn.Margin = new System.Windows.Forms.Padding(2);
             this.showstudenttbtn.Name = "showstudenttbtn";
@@ -84,7 +84,7 @@ namespace OOPCA1
             this.showlecturebtn.AutoEllipsis = true;
             this.showlecturebtn.BackColor = System.Drawing.Color.LightSlateGray;
             this.showlecturebtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.showlecturebtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showlecturebtn.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showlecturebtn.Location = new System.Drawing.Point(-1, 121);
             this.showlecturebtn.Margin = new System.Windows.Forms.Padding(2);
             this.showlecturebtn.Name = "showlecturebtn";
@@ -114,15 +114,47 @@ namespace OOPCA1
             this.panel1.Size = new System.Drawing.Size(174, 567);
             this.panel1.TabIndex = 4;
             // 
+            // studfromcork
+            // 
+            this.studfromcork.BackColor = System.Drawing.Color.LightSlateGray;
+            this.studfromcork.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.studfromcork.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studfromcork.Location = new System.Drawing.Point(1, 376);
+            this.studfromcork.Margin = new System.Windows.Forms.Padding(2);
+            this.studfromcork.Name = "studfromcork";
+            this.studfromcork.Size = new System.Drawing.Size(173, 40);
+            this.studfromcork.TabIndex = 9;
+            this.studfromcork.Text = "Students from Cork";
+            this.studfromcork.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.studfromcork.UseVisualStyleBackColor = false;
+            this.studfromcork.Visible = false;
+            this.studfromcork.Click += new System.EventHandler(this.Studfromcork_Click);
+            // 
+            // lectur6kbtn
+            // 
+            this.lectur6kbtn.BackColor = System.Drawing.Color.LightSlateGray;
+            this.lectur6kbtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.lectur6kbtn.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lectur6kbtn.Location = new System.Drawing.Point(0, 420);
+            this.lectur6kbtn.Margin = new System.Windows.Forms.Padding(2);
+            this.lectur6kbtn.Name = "lectur6kbtn";
+            this.lectur6kbtn.Size = new System.Drawing.Size(173, 45);
+            this.lectur6kbtn.TabIndex = 8;
+            this.lectur6kbtn.Text = "Lecturers with Pay more than 6K";
+            this.lectur6kbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.lectur6kbtn.UseVisualStyleBackColor = false;
+            this.lectur6kbtn.Visible = false;
+            this.lectur6kbtn.Click += new System.EventHandler(this.Lectur6kbtn_Click);
+            // 
             // maleLecturers
             // 
             this.maleLecturers.BackColor = System.Drawing.Color.LightSlateGray;
             this.maleLecturers.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.maleLecturers.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maleLecturers.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maleLecturers.Location = new System.Drawing.Point(0, 306);
             this.maleLecturers.Margin = new System.Windows.Forms.Padding(2);
             this.maleLecturers.Name = "maleLecturers";
-            this.maleLecturers.Size = new System.Drawing.Size(173, 40);
+            this.maleLecturers.Size = new System.Drawing.Size(173, 43);
             this.maleLecturers.TabIndex = 7;
             this.maleLecturers.Text = "Male Lecturers ";
             this.maleLecturers.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
@@ -134,11 +166,11 @@ namespace OOPCA1
             // 
             this.students25age.BackColor = System.Drawing.Color.LightSlateGray;
             this.students25age.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.students25age.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.students25age.Location = new System.Drawing.Point(0, 257);
+            this.students25age.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.students25age.Location = new System.Drawing.Point(0, 247);
             this.students25age.Margin = new System.Windows.Forms.Padding(2);
             this.students25age.Name = "students25age";
-            this.students25age.Size = new System.Drawing.Size(173, 45);
+            this.students25age.Size = new System.Drawing.Size(173, 55);
             this.students25age.TabIndex = 6;
             this.students25age.Text = "Students Above the age 25";
             this.students25age.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
@@ -150,7 +182,7 @@ namespace OOPCA1
             // 
             this.lectureinf.BackColor = System.Drawing.Color.LightSlateGray;
             this.lectureinf.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.lectureinf.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lectureinf.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lectureinf.Location = new System.Drawing.Point(0, 60);
             this.lectureinf.Margin = new System.Windows.Forms.Padding(2);
             this.lectureinf.Name = "lectureinf";
@@ -165,7 +197,7 @@ namespace OOPCA1
             // 
             this.studentinf.BackColor = System.Drawing.Color.LightSlateGray;
             this.studentinf.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.studentinf.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentinf.Font = new System.Drawing.Font("Comic Sans MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentinf.Location = new System.Drawing.Point(0, 10);
             this.studentinf.Margin = new System.Windows.Forms.Padding(2);
             this.studentinf.Name = "studentinf";
@@ -178,6 +210,7 @@ namespace OOPCA1
             // 
             // backbtn
             // 
+            this.backbtn.Font = new System.Drawing.Font("Rockwell Nova Extra Bold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backbtn.Location = new System.Drawing.Point(34, 525);
             this.backbtn.Name = "backbtn";
             this.backbtn.Size = new System.Drawing.Size(98, 29);
@@ -191,43 +224,13 @@ namespace OOPCA1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::OOPCA1.Properties.Resources.download;
-            this.pictureBox1.Location = new System.Drawing.Point(500, 201);
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(319, 92);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(277, 176);
+            this.pictureBox1.Size = new System.Drawing.Size(562, 325);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            // 
-            // lectur6kbtn
-            // 
-            this.lectur6kbtn.BackColor = System.Drawing.Color.LightSlateGray;
-            this.lectur6kbtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.lectur6kbtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lectur6kbtn.Location = new System.Drawing.Point(0, 410);
-            this.lectur6kbtn.Margin = new System.Windows.Forms.Padding(2);
-            this.lectur6kbtn.Name = "lectur6kbtn";
-            this.lectur6kbtn.Size = new System.Drawing.Size(173, 45);
-            this.lectur6kbtn.TabIndex = 8;
-            this.lectur6kbtn.Text = "Lecturers with Pay more than 6K";
-            this.lectur6kbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.lectur6kbtn.UseVisualStyleBackColor = false;
-            this.lectur6kbtn.Visible = false;
-            this.lectur6kbtn.Click += new System.EventHandler(this.Lectur6kbtn_Click);
-            // 
-            // studfromcork
-            // 
-            this.studfromcork.BackColor = System.Drawing.Color.LightSlateGray;
-            this.studfromcork.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.studfromcork.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studfromcork.Location = new System.Drawing.Point(-1, 366);
-            this.studfromcork.Margin = new System.Windows.Forms.Padding(2);
-            this.studfromcork.Name = "studfromcork";
-            this.studfromcork.Size = new System.Drawing.Size(173, 40);
-            this.studfromcork.TabIndex = 9;
-            this.studfromcork.Text = "Students from Cork";
-            this.studfromcork.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.studfromcork.UseVisualStyleBackColor = false;
-            this.studfromcork.Visible = false;
-            this.studfromcork.Click += new System.EventHandler(this.Studfromcork_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 
@@ -256,7 +259,6 @@ namespace OOPCA1
         private Microsoft.Data.SqlClient.SqlDataAdapter sqlDataAdapter1;
         private System.Windows.Forms.Button showstudenttbtn;
         private System.Windows.Forms.Button showlecturebtn;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button backbtn;
         private System.Windows.Forms.Button lectureinf;
@@ -265,6 +267,7 @@ namespace OOPCA1
         private System.Windows.Forms.Button students25age;
         private System.Windows.Forms.Button studfromcork;
         private System.Windows.Forms.Button lectur6kbtn;
+        public System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
