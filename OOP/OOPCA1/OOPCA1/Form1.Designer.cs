@@ -170,7 +170,7 @@ namespace OOPCA1
             this.students25age.Location = new System.Drawing.Point(0, 247);
             this.students25age.Margin = new System.Windows.Forms.Padding(2);
             this.students25age.Name = "students25age";
-            this.students25age.Size = new System.Drawing.Size(173, 55);
+            this.students25age.Size = new System.Drawing.Size(173, 46);
             this.students25age.TabIndex = 6;
             this.students25age.Text = "Students Above the age 25";
             this.students25age.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
