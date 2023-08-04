@@ -1,0 +1,6 @@
+D:\Resit\OopResit10608881\OOPCA1\BIZ\bin\Debug\BIZ.dll
+D:\Resit\OopResit10608881\OOPCA1\BIZ\bin\Debug\BIZ.pdb
+D:\Resit\OopResit10608881\OOPCA1\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+D:\Resit\OopResit10608881\OOPCA1\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+D:\Resit\OopResit10608881\OOPCA1\BIZ\obj\Debug\BIZ.dll
+D:\Resit\OopResit10608881\OOPCA1\BIZ\obj\Debug\BIZ.pdb
