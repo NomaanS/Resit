@@ -1,0 +1,37 @@
+﻿/* Style for the FAQ container */
+.faq {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+    /* Style for the FAQ heading */
+    .faq h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+/* Style for the list of FAQ items */
+.faq-list {
+    list-style-type: disc; /* Use bullets for the list items */
+    margin-left: 30px; /* Add indentation for the list items */
+}
+
+    /* Style for each FAQ item */
+    .faq-list li {
+        margin-bottom: 20px;
+    }
+
+        /* Style for the question heading */
+        .faq-list li h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Style for the answer text */
+        .faq-list li p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
