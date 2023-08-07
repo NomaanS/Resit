@@ -1,0 +1,6 @@
+﻿CREATE TABLE Purchases (
+    PurchaseID INT PRIMARY KEY IDENTITY,
+    ProductName NVARCHAR(255) NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    PurchaseDate DATETIME NOT NULL
+);

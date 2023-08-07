@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>CoolWheels - <%= Page.Title %></title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="jquery-3.7.0.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <div class="logo">
+            <img src="Images/icon.png" alt="CoolWheels Logo" class="logo-image" />
+            <div class="logo-text">coolwheels</div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Default.aspx" id="navHome">Home</a></li>
+                <li><a href="Products.aspx" id="navProducts">Products</a></li>
+                <li><a href="About.aspx" id="navAbout">About Us</a></li>
+                <li><a href="Contact.aspx" id="navContact">Contact Us</a></li>
+                <li><a href="FAQPage.aspx" id="navFAQ">FAQ</a></li>
+                <li><a href="StaffPage.aspx" id="navStaff">Staff</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    </div>
+
+    <footer class="footer">
+      
+        <div class="payment-icons">
+        <img src="Images/Pay/payment.svg" alt="Apple Pay" class="payment-icon" />
+        <img src="Images/Pay/payment-2.svg" alt="Apple Pay" class="payment-icon" />
+        <img src="Images/Pay/payment-3.svg" alt="Apple Pay" class="payment-icon" />
+        <img src="Images/Pay/payment-4.svg" alt="Apple Pay" class="payment-icon" />
+        <img src="Images/Pay/payment-5.svg" alt="Apple Pay" class="payment-icon" />
+        <img src="Images/Pay/payment-6.svg" alt="Apple Pay" class="payment-icon" />
+        <img src="Images/Pay/payment-7.svg" alt="Apple Pay" class="payment-icon" />
+        
+    </div>
+          <div class="footer-content" >
+            <p>&copy; <%= DateTime.Now.Year %> CoolWheels. All rights reserved. | <a href="PrivacyPolicy.aspx">Privacy Policy</a> | <a href="TermsOfUse.aspx">Terms of Use</a></p>
+        </div>
+    </footer>
+        </form>
+    <script src="javascr.js"></script>
+</body>
+</html>
+
+

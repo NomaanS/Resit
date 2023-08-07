@@ -1,0 +1,65 @@
+﻿/* Apply "Open Sans" font to the entire body */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style for the staff container */
+.staff {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+    /* Style for the staff heading */
+    .staff h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+        font-weight: 700; /* Use "Open Sans" bold font */
+    }
+
+/* Style for each staff member */
+.staff-member {
+    margin-bottom: 30px;
+}
+
+/* Style for staff member information container */
+.staff-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+    /* Style for staff member images */
+    .staff-info img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+/* Style for staff member names */
+.staff-details h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 600; /* Use "Open Sans" semi-bold font */
+}
+
+/* Style for staff member job titles */
+.staff-details p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #888;
+    font-weight: 400; /* Use "Open Sans" regular font */
+}
+
+/* Style for staff member biography */
+.staff-bio {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    font-weight: 400; /* Use "Open Sans" regular font */
+}
